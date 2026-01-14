@@ -31,3 +31,23 @@ multiType = 20;
 multiType = "Twenty";
 multiType = true;
 // multiType = []; // error
+// 8 Literal Type
+let status;
+// status = "success"; // error
+status = "active";
+// 8. Null và Undefined
+const data = {
+    id: 1,
+    title: "Learn TypeScript",
+    description: null,
+    // timeLearn: undefined,
+};
+data.timeLearn; // undefined
+data.description; // null
+// 9. Unknown và Any
+let input = "hello";
+// input.toLowerCase(); // error
+// hay gap try catch axios => catch (error: unknown) { as AxiosError} : message
+// 10. Type Assertions
+input.toLowerCase(); // casting
+input.toLowerCase(); // casting
